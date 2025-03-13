@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul.navigation {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.navigation li {
+    margin: 0 20px;
+}
+
+nav ul.navigation li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul.navigation li a:hover {
+    color: #007BFF;
+}
+
+main {
+    padding: 40px 10%;
+    background-color: #fff;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 66.6% 33.3%;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: #9E1B32;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card article {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.card article:nth-of-type(2) {
+    flex-direction: column;
+}
+
+.card article p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.arkansas {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.card article img {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.card article h3 {
+    border-bottom: 2px solid #9E1B32;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.card ul li a:hover {
+    color: #007BFF;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
