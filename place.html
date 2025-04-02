@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dallas McCool">
+    <meta name="description" content="Country Page assignment for WDD 131 - Dallas McCool">
+    <title>Country Page | Dallas McCool</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Japan</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 550px)" srcset="images/hero-large.webp">
+                <img src="images/hero-small.webp" alt="Scenic view of Japan" width="500">
+            </picture>
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <p>Area: 145,937 mi²</p>
+            <p>Population: 123,271,281</p>
+            <p>Capital: Tokyo</p>
+            <p>Languages: Japanese</p>
+            <p>Currency: Yen</p>
+            <p>Time Zone: UTC+9</p>
+            <p>Calling Code: +81</p>
+            <p>Internet TLD: .jp</p>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="Weather Icon">
+            <p>Temperature: 64°F</p>
+            <p>Conditions: Partly Cloudy</p>
+            <p>Wind: 7mph</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Dallas McCool | Japan</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
