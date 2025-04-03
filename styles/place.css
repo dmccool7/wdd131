@@ -121,7 +121,7 @@ footer p {
     margin: 0.5rem 0;
 }
 
-@media (max-width: 549px) {
+@media only screen and (max-width: 549px) {
     body {
         padding: 0.5rem;
     }
@@ -147,7 +147,7 @@ footer p {
     }
 }
 
-@media (min-width: 550px) {
+@media only screen and (min-width: 550px) {
     body {
         padding: 2rem;
     }
