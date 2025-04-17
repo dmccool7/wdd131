@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dallas McCool">
+    <meta name="description" content="Final project home page for WDD131 - Dallas McCool">
+    <title>Japan Trip | 2023</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <script src="scripts/itinerary.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Six Day Itinerary</h1>
+        <a id="hamburger" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="itinerary.html" id="itinerary">Itinerary</a></li>
+                <li><a href="gallery.html" id="gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="daily">
+            <section>
+                <h2>Day 1 - Kyoto</h2>
+                <p>Arrive in Tokyo, Pick up Japan Rail Pass</p>
+                <p>Train from Tokyo to Kyoto</p>
+                <p>Check into Airbnb & then Shop for some Meals & Snacks</p>
+            </section>
+            <section>
+                <h2>Day 2 - Kyoto</h2>
+                <p>Arashiyama Bamboo Forest</p>
+                <p>Kimono Forest</p>
+                <p>Hike to see Monkeys @ Arashiyama Monkey Park</p>
+                <p>Creme Brulee Donuts @ Donut Stand</p>
+                <p>Tenryu-ji, Seiryojihondo, & Daikaku-ji Buddhist Temples</p>
+                <p>Fushimi Inari Shrine</p>
+                <p>Train from Kyoto to Nara</p>
+                <p>See Deer @ Nara Deer Park</p>
+                <p>Train Back to Kyoto</p>
+            </section>
+            <section>
+                <h2>Day 3 - Osaka</h2>
+                <p>Train from Kyoto to Osaka</p>
+                <p>Osaka Castle</p>
+                <p>See Turtle Pond & Buddhist Temple @ Shitenno-ji</p>
+                <p>Ramen @ Kotan Ramen Abechika in Tennoji Station</p>
+                <p>Belgian Waffle Desserts @ Manneken in Tennoji Station</p>
+                <p>Explore Dotonbori & Eat Melon Pan</p>
+                <p>teamLab Botanical Garden Osaka</p>
+                <p>Train back to Kyoto</p>
+            </section>
+            <section>
+                <h2>Day 4 - Tokyo</h2>
+                <p>Breakfast @ Eggs 'n Things</p>
+                <p>Check out of Airbnb, Train to Tokyo</p>
+                <p>Train Passes by Mt. Fuji</p>
+                <p>Check into Airbnb</p>
+                <p>Dinner @ Morimori in Shinjuku</p>
+            </section>
+            <section>
+                <h2>Day 5 - Tokyo</h2>
+                <p>Rent Pedal Boats in Moat @ Imperial Palace & see Cherry Blossoms</p>
+                <p>Fluffy Pancakes @ A Happy Pancake in Omotesando</p>
+                <p>Explore Takeshita Street</p>
+                <p>Shibuya Crossing & Hachiko Memorial Statue</p>
+                <p>Nintendo Store & Adores Arcade</p>
+                <p>Dinner @ La SOFFITTA in Shibuya</p>
+                <p>Ten Yen Cheese Coin Bread @ MEGA Don Quijote</p>
+            </section>
+            <section>
+                <h2>Day 6 - Tokyo</h2>
+                <p>Breakfast @ Sarabeth's Shinjuku</p>
+                <p>Tokyo Japan LDS Temple</p>
+                <p>Arisugawa-no-miya Memorial Park</p>
+                <p>Tsukiji Fish Market</p>
+                <p>Shop for Souvenirs @ Kappabashidoguga Street</p>
+                <p>Prepare for Early Next Morning Departure</p>
+            </section>
+        </div>
+        <section>
+            <h2>Favorites</h2>
+            <p><i>Click on Activities Above to Add to your Favorites</i></p>
+            <ul id="favorites-list"></ul>
+        </section>
+        <section>
+            <form action="itinerary.html">
+                <h2>Comments?</h2>
+                <fieldset>
+                    <label for="feedback">Question about our itinerary? Feedback for our next trip? Let us know here!</label>
+                    <textarea name="feeback" id="feedback" rows="5"></textarea>
+                </fieldset>
+                <button type="submit">Send My Comment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Dallas McCool | Arkansas, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
